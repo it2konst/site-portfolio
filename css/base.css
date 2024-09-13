@@ -1,0 +1,38 @@
+html{
+	max-width: 100%;
+	min-height: 100vh;
+	overflow-x: hidden;
+	scroll-behavior: smooth;
+
+	font-family: "Poppins", sans-serif;
+	font-size: 16px;
+}
+
+body {
+	max-width: 100%;
+	min-height: 100vh;
+	display: flex;
+	flex-direction: column;
+	color: var(--first-color);
+	background: var(--body-bg-color);
+	overflow-x: hidden;
+}
+
+.container {
+	max-width: 1250px;
+	width: 100%;
+	margin: 0 auto;
+	padding: 0 15px;
+}
+
+.none {
+	display: none !important;
+}
+
+.dark-theme .nav-menu-btn {
+	background: url(../img/burger-white.svg) no-repeat center;
+}
+
+.dark-theme .nav-menu-btn.close {
+	background: url(../img/close-white.svg) no-repeat center;
+}
