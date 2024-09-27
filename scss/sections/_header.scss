@@ -22,8 +22,12 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    transition: 0.6s linear;
+    transition: 0.5s linear;
     padding: 18px 0;
+}
+
+.header.sticky .header-wrapper {
+    padding: 10px 0;
 }
 
 .nav {
@@ -42,6 +46,8 @@
     text-transform: capitalize;
     color: var(--first-color);
     font-size: var(--normal-font-size);
+
+    transition: color 0.3s linear;
 }
 
 .nav-link.active,
