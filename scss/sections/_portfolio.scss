@@ -91,13 +91,12 @@
 .portfolio-model-body {
     position: relative;
     background: var(--modal-bg-color);
-    min-width: 600px;
+    max-width: 600px;
     width: 100%;
     padding: 40px;
     border-radius: 10px;
     box-shadow: var(--box-shadow);
     transform: translateY(-20px);
-    width: 40%;
     transition: transform 0.5s linear;
 }
 

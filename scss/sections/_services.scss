@@ -66,12 +66,13 @@
     background: var(--bg-transparent-color);
     visibility: hidden;
     opacity: 0;
-    transition: transform 0.3s linear, opacity 0.3s linear;
+    // transition: transform 0.3s linear, opacity 0.3s linear;
 }
 
 .service-modal.active {
     visibility: visible;
     opacity: 1;
+    transition: 0.3s linear;
 }
 
 .service-modal-body {

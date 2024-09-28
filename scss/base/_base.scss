@@ -18,7 +18,11 @@ body {
     color: var(--first-color);
     background: var(--body-bg-color);
     overflow-x: hidden;
-    // background-color: #ccc;
+    background-color: #ccc;
+}
+
+main {
+    flex: 1;
 }
 
 .container {
