@@ -45,6 +45,8 @@
         width: 40px;
         height: 40px;
         cursor: pointer;
+        @include no-tap-highlight;
+
         transition: 0.3s linear;
     }
 
@@ -63,14 +65,40 @@
         visibility: hidden;
         opacity: 0;
         z-index: -1;
-        transition: 0.3s linear;
+        transition: opacity 0.3s linear, background 0.3s linear;
     }
 
     .nav.active {
         z-index: 3;
         opacity: 1;
         visibility: visible;
+        background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2));
+
+        ul li a {
+            position: relative;
+            font-size: 1.2rem;
+        }
+
+        ul li a::before {
+            content: "";
+            position: absolute;
+            bottom: -0.5rem;
+            right: 0;
+            width: 0%;
+            height: 0.2rem;
+            background-color: var(--second-color);
+            transition: 0.3s linear;
+        }
+
+        ul li a:hover::before {
+            left: 0;
+            width: 100%;
+        }
     }
+
+    // dialog[open]::backdrop {
+    //     background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8));
+    // }
 
     .nav-menu {
         position: relative;
@@ -137,6 +165,20 @@
 
     .contact-wrapper {
         flex-wrap: wrap;
+    }
+
+    .portfolio-img-card .info {
+        //Портфолио карточки
+        transform: translateY(0);
+        opacity: 1;
+
+        h3,
+        span {
+            display: inline-block;
+            padding: 0 10px;
+            background-color: rgba(0, 0, 0, 0.4);
+            border-radius: 10px;
+        }
     }
 }
 
