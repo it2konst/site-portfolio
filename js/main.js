@@ -4,11 +4,16 @@ const navBtn = document.querySelector(".nav-menu-btn")
 const navBar = document.querySelector(".nav")
 const navMenu = document.querySelector(".nav-menu")
 const navLinks = document.querySelectorAll(".nav-link")
+const htmlElement = document.documentElement
 
 navBtn.addEventListener("click", function () {
     navBtn.classList.toggle("close")
     navBar.classList.toggle("active")
     navMenu.classList.toggle("active")
+
+    htmlElement.style.overflowY === "hidden"
+        ? htmlElement.style.overflowY = "auto"
+        : htmlElement.style.overflowY = "hidden"
 })
 
 navLinks.forEach(function (link) {
@@ -16,6 +21,7 @@ navLinks.forEach(function (link) {
         navBtn.classList.remove("close")
         navBar.classList.remove("active")
         navMenu.classList.remove("active")
+        htmlElement.style.overflowY = "auto"
     })
 })
 
