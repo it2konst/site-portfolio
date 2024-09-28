@@ -10,10 +10,16 @@
     gap: 60px;
 }
 
+.home-img {
+    filter: drop-shadow(8px 6px 10px var(--second-color));
+    max-width: 500px;
+}
+
 .media-icons {
     display: flex;
     flex-direction: column;
     gap: 10px;
+    align-items: center;
 }
 
 .media-icons a {
@@ -41,7 +47,7 @@
 .home-info p {
     font-size: var(--normal-font-size);
     /* columns: var(--third-color); */
-    max-width: 350px;
+    max-width: 300px;
     width: 100%;
 }
 

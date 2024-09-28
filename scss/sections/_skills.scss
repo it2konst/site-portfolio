@@ -1,6 +1,6 @@
-.skills .inner-content {
-    padding-bottom: 50px;
-}
+// .skills .inner-content {
+//     padding-bottom: 50px;
+// }
 
 .skills-description {
     max-width: 700px;
@@ -23,7 +23,12 @@
     justify-content: center;
     flex-wrap: wrap;
     gap: 21px;
-    margin-bottom: 20px;
+
+    // margin-bottom: 20px;
+
+    &:not(:last-child) {
+        margin-bottom: 20px;
+    }
 }
 
 .education {
