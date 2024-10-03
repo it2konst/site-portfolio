@@ -31,10 +31,10 @@ const revealConfigurations = [
     { selector: '.inner-title, .inner-second-title', config: { scale: 1.5, delay: 300 } },
     { selector: '.home-info h1, .about-img, .contact-card .title', config: { delay: 300, origin: "left" } },
     { selector: '.home-img, .description, .inner-info-link', config: { delay: 300, origin: "right" } },
-    { selector: '.skills-description, .services-description', config: { delay: 300, origin: "top" } },
+    { selector: '.skills-description, .services-description, .contact-right p, .contact-left h2', config: { delay: 300, origin: "top" } },
     { selector: '.media-icons a, .list-item', config: { delay: 300, origin: "top", interval: 200 } },
     { selector: '.education', config: { delay: 300, origin: "bottom", interval: 200 } },
-    { selector: '.work-exp-title, .experience-card, .services-container, .portfolio-img-card', config: { delay: 300, origin: "bottom", interval: 200 } },
+    { selector: '.work-exp-title, .experience-card, .services-container, .portfolio-img-card, .contact-list li, .first-row, .second-row, .third-row', config: { delay: 300, origin: "bottom", interval: 200 } },
     { selector: '.home-info h3, .home-info p, .home-info-link', config: { delay: 600, origin: "left" } },
 ]
 
