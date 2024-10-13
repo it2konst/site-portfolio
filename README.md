@@ -7,7 +7,4 @@
    <img src="https://github.com/devicons/devicon/blob/master/icons/javascript/javascript-original.svg" title="JavaScript" alt="JavaScript" width="40" height="40"/>&nbsp;
 </div>
 <br>
-![image16](https://github.com/user-attachments/assets/e03b891b-5bf9-4568-a509-8151833be03c)
-
-
-
+![image16](https://github.com/user-attachments/assets/92c7bda4-fb78-463b-9fd7-54944a18bdcc)
