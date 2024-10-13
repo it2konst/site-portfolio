@@ -5,6 +5,6 @@
    <img src="https://github.com/devicons/devicon/blob/master/icons/css3/css3-plain-wordmark.svg" title="CSS3" alt="CSS" width="40" height="40"/>&nbsp;
    <img src="https://github.com/devicons/devicon/blob/master/icons/sass/sass-original.svg" title="SASS" alt="SASS" width="40" height="40"/>&nbsp;
    <img src="https://github.com/devicons/devicon/blob/master/icons/javascript/javascript-original.svg" title="JavaScript" alt="JavaScript" width="40" height="40"/>&nbsp;
-   <br>
-   ![image16](https://github.com/user-attachments/assets/92c7bda4-fb78-463b-9fd7-54944a18bdcc)  
 </div>
+
+![image16](https://github.com/user-attachments/assets/767efdd9-e492-4401-a897-047707b02619)
